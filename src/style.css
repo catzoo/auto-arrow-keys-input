@@ -1,0 +1,142 @@
+:root{
+   --color1: #ff698c;
+   --color2: cyan;
+   --color3: gold;
+   --color4: lime;
+   --color5: orange;
+   --color6: darkgray;
+}
+body {
+   margin: 0 auto;
+   box-sizing: border-box;
+   background-color: #444;
+   overflow: hidden;
+}
+::-moz-selection {
+  background: rgba(0,0,0,0.6);
+}
+::selection {
+  background: rgba(0,0,0,0.6);
+}
+input{
+   width: 100vw;
+   padding: 0.3em 0em 0.3em 0.5em;
+   font-size: 2.5em;
+   border: none;
+   background-color: rgba(255,255,255,0.2);
+   color: white;
+   text-shadow:
+      0 0 0.075em white,
+      0 0 0.1em white,
+      0 0 0.15em var(--color5),
+      0 0 0.25em var(--color5),
+      0 0 0.3em var(--color5),
+      0 0 0.35em var(--color5),
+      0 0 0.4em var(--color5);
+}
+.row{
+   margin-left: 1em;
+   margin-top: 0.2em;
+}
+div div div{
+   display: inline-block;
+   font-size: 2.8em;
+   font-family: 'Consolas',monospace;
+   transition: 0.3s;
+   width: 1em;
+   text-align: center;
+   line-height: 1em;
+}
+#main {
+   margin-top: 0.8em;
+}
+div[data-direction='default']{
+   color: white;
+   text-shadow:
+      0 0 0.075em white,
+      0 0 0.1em white,
+      0 0 0.15em var(--color6),
+      0 0 0.25em var(--color6),
+      0 0 0.3em var(--color6),
+      0 0 0.35em var(--color6),
+      0 0 0.4em var(--color6);
+}
+div[data-direction='up']{
+   color: white;
+   text-shadow:
+      0 0 0.075em white,
+      0 0 0.1em white,
+      0 0 0.15em var(--color1),
+      0 0 0.25em var(--color1),
+      0 0 0.3em var(--color1),
+      0 0 0.35em var(--color1),
+      0 0 0.4em var(--color1);
+}
+div[data-direction='down']{
+   color: white;
+   text-shadow:
+      0 0 0.075em white,
+      0 0 0.1em white,
+      0 0 0.15em var(--color3),
+      0 0 0.25em var(--color3),
+      0 0 0.3em var(--color3),
+      0 0 0.35em var(--color3),
+      0 0 0.4em var(--color3);
+}
+div[data-direction='left']{
+   color: white;
+   text-shadow:
+      0 0 0.075em white,
+      0 0 0.1em white,
+      0 0 0.15em var(--color2),
+      0 0 0.25em var(--color2),
+      0 0 0.3em var(--color2),
+      0 0 0.35em var(--color2),
+      0 0 0.4em var(--color2);
+}
+div[data-direction='right']{
+   color: white;
+   text-shadow:
+      0 0 0.075em white,
+      0 0 0.1em white,
+      0 0 0.15em var(--color4),
+      0 0 0.25em var(--color4),
+      0 0 0.3em var(--color4),
+      0 0 0.35em var(--color4),
+      0 0 0.4em var(--color4);
+}
+div[data-direction='upold']{
+   color: var(--color1);
+   text-shadow:
+      0 0 0.15em var(--color1),
+      0 0 0.3em var(--color1);
+}
+div[data-direction='downold']{
+   color: var(--color3);
+   text-shadow:
+      0 0 0.15em var(--color3),
+      0 0 0.3em var(--color3);
+}
+div[data-direction='leftold']{
+   color: var(--color2);
+   text-shadow:
+      0 0 0.15em var(--color2),
+      0 0 0.3em var(--color2);
+}
+div[data-direction='rightold']{
+   color: var(--color4);
+   text-shadow:
+      0 0 0.15em var(--color4),
+      0 0 0.3em var(--color4);
+}
+div.alpha{
+   color: white;
+   text-shadow:
+      0 0 0.075em white,
+      0 0 0.1em white,
+      0 0 0.15em var(--color5),
+      0 0 0.25em var(--color5),
+      0 0 0.3em var(--color5),
+      0 0 0.35em var(--color5),
+      0 0 0.4em var(--color5);
+}
