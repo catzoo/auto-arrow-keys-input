@@ -24,7 +24,7 @@ This project adds a auto function to it. There are two ways to make it easier to
 
 1. Typing out a string
     * You can do this by pressing `control` and a text prompt will come up. Enter some text and it will do the rest.
-    ![gif](auto.gif)
+    <img src="https://github.com/catzoo/auto-arrow-keys-input/blob/main/auto.gif" width="450" />
 2. Letter by letter.
-    * You can also use your keyboard to type. If you press any letter on the keyboard, it will automatically enter it. `warning: push a letter and wait for it to complete. If you type too fast it may glitch out`
-    ![gif](auto-letter.gif)
+    * You can also use your keyboard to type. If you press any letter on the keyboard, it will automatically enter it. note, push a letter and wait for it to complete. If you type too fast it may glitch out
+    <img src="https://github.com/catzoo/auto-arrow-keys-input/blob/main/auto-letter.gif" width="450" />
